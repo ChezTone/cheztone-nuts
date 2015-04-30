@@ -1,0 +1,62 @@
+{
+  "menu" : {
+    "home" : "Accueil",
+    "about" : "A propos",
+    "contact" : "Contact",
+    "shortcut" : "Menu",
+    "game" : "Jeux"
+  },
+  "about" : {
+    "title" : "A Propos",
+    "default" : "Le web est en plein essor, de nouvelles techniques voient le jour régulièrement. Certains projets ont attiré mon attention, et comme je prends beaucoup de plaisir à utiliser ces solutions, je pensais que les partager serait une bonne idée.",
+    "apache" : {
+      "title" : "Apache",
+      "detail" : "Les produits Apache offrent un large éventail de produits Open Source, du build de vos projets à la gestion des dépendances, en passant par la sécurisation de vos serveurs : un grand merci !"
+    },
+    "github" : {
+      "title" : "GitHub",
+      "detail" : "Gestionnaire de version révolutionnaire ! Beaucoup de projets se retrouvent sur cette plateforme. Elle permet de suivre et même de contribuer à ses projets préférés."
+    },
+    "mongoDB" : {
+      "title" : "MongoDB",
+      "detail" : "Base de données NoSQL en mode document. Rapide, scalable, cette base de donnée permet aussi de faire évoluer le model de donnée sans avoir a tout réécrir. que demander de plus ?"
+    },
+    "angularjs" : {
+      "title" : "AngularJS",
+      "detail" : "Framework javascript de chez Google, il permet de créer des applications MVC en javascript. Grâce à sa philosophie axée sur des composants réutilisables, nos projets javascript deviennent mieux organisés et plus simples à maintenir."
+    },
+    "spring" : {
+      "title" : "Spring",
+      "detail" : "Framework et conteneur léger, ces librairies contiennent un grand nombre d'utilitaires et de facilitants pour tout ce qui touche à la configuration de la partie serveur des applications web."
+    },
+    "grunt" : {
+      "title" : "Grunt",
+      "detail" : "Exécution de tâches et construction d'applications en javascript. Minification des fichiers pour le déploiement, lancement de l'application en mode développement sont autant de choses qui sont permises en utilisant Grunt."
+    },
+    "bower" : {
+      "title" : "Bower",
+      "detail" : "Gestionnaire de dépendances pour le web, cet outil permet de configurer les versions et l'importation des librairies javascript ou CSS dans les projets web. Finis les fastidieux ajouts de librairies à la main, maintenant tout est centralisé."
+    },
+    "jetbrains" : {
+      "title" : "JetBrains",
+      "detail" : "Editeur logiciel qui fait le bonheur des développeurs. Les solutions qu'il fournit ont le mérite de faciliter la vie de ceux qui les utilisent."
+    },
+    "blender" : {
+      "title" : "Blender",
+      "detail" : "Logiciel de modélisation 3D OpenSource. Cet outil très complet permet de créer et donner vie à des scènes et objets 3D de façon précise."
+    }
+  },
+  "home" : {
+    "title" : "Bienvenue chez moi",
+    "default1" : "Je souhaitais vous faire part de quelques-unes de mes passions : j'aime beaucoup le développement d'applications et les jeux vidéos.",
+    "default2" : "Pour concillier les deux, quoi de mieux que de proposer des jeux sur un site web ?",
+    "default3" : "Créer un jeu, ça ne se fait pas en un claquement de doigts, mais vous pourrez suivre son évolution ici !"
+  },
+  "contact" : {
+    "title" : "Contact",
+    "default" : "Si vous êtes ici, il y a fort à parier que vous me connaissez déjà ^^. Pour les autres, je mettrai à jour cette section dans quelques temps : il me reste encore quelques détails techniques à régler."
+  },
+  "footer" : {
+    "default" : "ChezTone®"
+  }
+}
