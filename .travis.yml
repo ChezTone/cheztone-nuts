@@ -1,6 +1,17 @@
+sudo: requiered
 language: node_js
+services:
+   - docker
 node_js:
-  - '0.10'
+   - '4.2'
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
+script:
+  - 'grunt build'
+after_script:
+  - docker build -t cheztone/cheztone-nuts .
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+      docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
+      docker push cheztone/cheztone-nuts;
+      fi
